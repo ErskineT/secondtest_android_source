@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"><![CDATA[Second test]]></string>
+    <string name="url">http://builder.goatappshop.com/en/551fea2e6652a/</string>
+    <string name="load_message">Loading. Please wait...</string>
+    <string name="quit_message">Quit the application?</string>
+    <string name="done">Done</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_internet_connection">You are working offline. Part of the content may not be visible.</string>
+
+</resources>

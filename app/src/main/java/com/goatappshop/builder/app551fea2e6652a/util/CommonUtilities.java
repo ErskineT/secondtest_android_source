@@ -1,0 +1,58 @@
+/*
+ * Copyright 2012 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+package com.goatappshop.builder.app551fea2e6652a.util;
+
+/**
+ * Helper class providing methods and constants common to other classes in the
+ * app.
+ */
+public final class CommonUtilities {
+
+    public static final String APP_ID = "2";
+
+    public static final String SERVEUR_URL = "http://builder.goatappshop.com/";
+
+    public static final String REGISTER_DEVICE_URL = "push/android/registerdevice";
+
+    static final String MARK_DISPLAYED_URL = "push/android/markdisplayed";
+
+    static final String UPDATE_POSITION_URL = "push/android/updateposition";
+
+    public static final String SENDER_ID = "157673302552";
+
+    public static final String PROPERTY_REG_ID = "registration_id";
+    public static final String PROPERTY_APP_VERSION = "app_id";
+
+    static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
+
+    /**
+     * Tag used on log messages.
+     */
+    public static final String TAG = "GCMRegistration";
+
+    /**
+     * Intent used to display a message in the screen.
+     */
+    static final String DISPLAY_MESSAGE_ACTION =
+            "com.siberian.app.DISPLAY_MESSAGE";
+
+    /**
+     * Intent's extra that contains the message to be displayed.
+     */
+    static final String EXTRA_MESSAGE = "message";
+
+
+}
